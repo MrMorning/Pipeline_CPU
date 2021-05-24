@@ -66,7 +66,7 @@ module Pipeline_CPU(
             PC_IFID <= 0;
         end
         else begin
-            inst_IFID <= inst_IF;
+            inst_IFID <= inst_in;
             PC_IFID <= PC_out;
         end
     end
@@ -263,6 +263,7 @@ module Pipeline_CPU(
     assign PC_ID_debug = PC_IFID;
     assign PC_EX_debug = PC_IDEX;
     assign PC_MEM_debug = PC_EXMEM;
+    assign inst_IF_debug = inst_in;
     assign inst_ID_debug = inst_IFID;
     assign MemRW_EX_debug = MemRW_IDEX;
     assign MemRW_MEM_debug = MemRW_EXMEM;

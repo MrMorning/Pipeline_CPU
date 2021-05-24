@@ -68,7 +68,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>99e5ff64</spirit:value>
+            <spirit:value>74569fbf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -84,7 +84,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>99e5ff64</spirit:value>
+            <spirit:value>74569fbf</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -401,7 +401,7 @@
       <spirit:file>
         <spirit:name>Pipeline_CPU.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_f3ebf174</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_ff066d97</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -462,24 +462,38 @@
       </xilinx:taxonomies>
       <xilinx:displayName>Pipeline_CPU_v1_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2021-05-24T08:25:58Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>3</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2021-05-24T10:53:12Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3be307cb_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@46be1afa_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e24d521_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@79bfbc6c_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@70914ce0_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@5307870c_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@1115ce78_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@27058c2f_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
-        <xilinx:tag xilinx:name="ui.data.coregen.dd@b37de84_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d246c2_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ddca07_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ef34efb_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1742bd58_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e45b0b4_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3dd90a20_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f38f749_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b0fa4fa_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1388ad5_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24923e5e_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7320c7e4_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5454d20b_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d80ab05_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2867ab91_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2487de48_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@cd79de3_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e31dd43_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c659f21_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2aef2708_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3cbf26bb_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@29ba3ee6_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f418026_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ec8588e_ARCHIVE_LOCATION">/home/chen/coding/ORG/lab5/Pipeline_CPU/Pipeline_CPU.srcs/sources_1/new</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="1d358f06"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="d0ae8889"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="b647315d"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="0aa24679"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="f3eb0d4f"/>
     </xilinx:packagingInfo>
