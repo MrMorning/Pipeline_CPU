@@ -12,7 +12,7 @@ wire [31:0] alu_b_data = ALUSrc_B ? Imm_data : rs2_data;
 
 ALU alu(
     .A(rs1_data),
-    .B(rs2_data),
+    .B(alu_b_data),
     .ALU_op(ALU_Control),
     .res(ALU_res),
     .zero()
