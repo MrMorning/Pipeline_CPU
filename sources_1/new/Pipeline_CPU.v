@@ -28,9 +28,17 @@ module Pipeline_CPU(
         output wire MemRW,
         output reg [31:0] PC_out,
         output [31:0] Addr_out,
-        output [31:0] Data_out
+        output [31:0] Data_out,
         //below are debug signals.
-        
+        output [31:0] PC_IF_debug,
+        output [31:0] PC_ID_debug,
+        output [31:0] PC_EX_debug,
+        output [31:0] PC_MEM_debug,
+        output [31:0] inst_IF_debug,
+        output [31:0] inst_ID_debug,
+        output MemRW_EX_debug,
+        output MemRW_MEM_debug,
+        output [31:0] wb_data_debug
     );
 
     // Pipeline Stages
@@ -40,12 +48,15 @@ module Pipeline_CPU(
 
     reg [31:0] inst_IFID;
     reg [31:0] PC_IFID;
+    reg [31:0] inst_IF;
 
     always @ (posedge clk or posedge rst) begin
         if(rst) begin
             PC_out <= 0; 
+            inst_IF <= 0;
         end else begin
             PC_out <= PC_out + 4; 
+            inst_IF <= inst_in;
         end
     end
 
@@ -55,7 +66,7 @@ module Pipeline_CPU(
             PC_IFID <= 0;
         end
         else begin
-            inst_IFID <= inst_in;
+            inst_IFID <= inst_IF;
             PC_IFID <= PC_out;
         end
     end
@@ -246,9 +257,16 @@ module Pipeline_CPU(
 
     // end Regs
 
-    // IO configuration
 
+    // debug signals
+    assign PC_IF_debug = PC_out;
+    assign PC_ID_debug = PC_IFID;
+    assign PC_EX_debug = PC_IDEX;
+    assign PC_MEM_debug = PC_EXMEM;
+    assign inst_ID_debug = inst_IFID;
+    assign MemRW_EX_debug = MemRW_IDEX;
+    assign MemRW_MEM_debug = MemRW_EXMEM;
+    assign wb_data_debug = wb_data;
 
-    // end IO configuration
 
 endmodule
